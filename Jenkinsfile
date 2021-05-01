@@ -2,12 +2,12 @@ pipeline {
 
     agent any
 
-    environment {
-        GO111MODULE = 'on'
-    }
-
     tools {
         go 'go-1.13'
+    }
+    
+    environment {
+        GO111MODULE = 'on'
     }
 
     stages {
