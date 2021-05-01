@@ -7,7 +7,7 @@ pipeline {
     }
 
     tools {
-        go 'go-1.14'
+        go 'go-1.13'
     }
 
     stages {
